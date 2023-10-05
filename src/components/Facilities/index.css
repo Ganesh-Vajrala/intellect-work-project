@@ -1,0 +1,45 @@
+.facilities-provided-main-container{
+    max-width:1279px;
+height: 410px;
+width:100%;
+flex-shrink: 0;
+    margin-top:60px;
+    display: flex;
+}
+
+.facilities-provided-main-head{
+    font-family: 'Open Sans';
+    font-size: 40px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.facilities-provided-main-des{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.facilities-provided-contact-button{
+    font-family:'Open Sans';
+    font-weight: 400;
+    height: 40px;
+    font-size: 14px;
+    width: 130px;  
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #FF7665;
+    border:none;
+    outline: none;
+    border-radius: 18px;
+}
+.facilities-provided-items-container{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}

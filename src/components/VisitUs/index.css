@@ -1,0 +1,65 @@
+.visit-us-bg-container{
+    width: 100%;
+    height: 677px;
+    border-radius: 16px;
+    background: url(/src/map.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    display: flex;
+    padding: 35px;
+
+    
+}
+.visit-us-bg-inner-container{
+    align-self: flex-end;
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 30px 30px 20px 30px;
+    border-radius: 18px;
+}
+.visit-us-head{
+    font-family: 'Open Sans';
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.visit-us-description{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #555555;
+}
+
+.visit-us-search-inner-container{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color:#e2e7e7;
+    height: 48px;
+    border-radius: 50px;
+    display: flex;
+    margin-top:55px;
+    align-self: flex-end;
+}
+
+.visit-us-search-inner-container input{
+    height: 100%;
+    width: 90%;
+    border-radius:45px 0 0 45px;
+    padding: 20px;
+    margin: 0;
+    border:none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+.contact-button{
+    border-radius: 45px;
+    width:100px;
+    border:none;
+    background-color: #D36558;
+    opacity: 80%;
+    color: #ffffff;
+    font-family:'Open Sans';
+}

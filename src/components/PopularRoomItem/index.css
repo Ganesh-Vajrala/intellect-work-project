@@ -1,0 +1,70 @@
+.popular-room-item-container{
+    width:411px;
+    height: 480px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.popular-room-img{
+    width: 100%;
+}
+.popular-room-item-name-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+}
+.room-type{
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 650;
+    margin-top: 20px;
+    color:#000000;
+    line-height: 30px;
+}
+
+.cost-rating-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -18px;
+}
+.cost-element{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    justify-self: center;
+    margin-right: 0;
+    margin-top: 15px;
+}
+
+hr{
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width:16px;
+    height: 4px;
+    rotate: -90deg;
+    border-color:#a2a2a2;
+}
+.rating-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filled-star,.unfilled-star{
+    height: 18px;
+    margin-top: 0;
+    margin-left: 4px;
+
+}
+.rating-ele{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 10px;
+}
